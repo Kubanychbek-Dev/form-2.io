@@ -1,0 +1,253 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-size: 18px;
+}
+
+.container {
+  max-width: 1140px;
+  padding: 10px 15px;
+  margin: 20px auto;
+  background-color: rgb(255, 247, 247);
+}
+
+form {
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10px 15px 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.672), 0 6px 20px 0 rgba(0, 0, 0, 0.663);
+
+  input {
+    border: none;
+    border-bottom: 1px solid rgb(136, 129, 129);
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+  }
+}
+
+/* Registration form */
+
+.registration-form {
+  width: 60%;
+}
+
+.username {
+  width: 90%;
+}
+
+.user-email {
+  width: 90%;
+}
+
+.user-password {
+  width: 44%;
+  margin-right: 10px;
+}
+
+.confirm-password {
+  width: 44%;
+}
+
+/* Personal details */
+
+.personal-details {
+  width: 40%;
+  margin-top: 10px;
+}
+
+.first-name {
+  margin-right: 10px;
+  margin-bottom: 32px;
+}
+
+.select-gender {
+  width: 40%;
+  border: none;
+  border-bottom: 1px solid black;
+  padding-bottom: 8px;
+  margin-right: 10px;
+}
+
+.user-date {
+  width: 38%;
+}
+
+.wrapper {
+  margin-top: 30px;
+}
+
+.submit-btn {
+  margin-top: 100px;
+ margin-right: 20px;
+
+ input {
+  color: #fff;
+  background-color: #0b8187;
+  padding: 10px 36px;
+ }
+}
+
+/* max-width: 900px */
+
+@media screen and (max-width: 900px) {
+  .container {
+    max-width: 850px;
+    padding: 10px 25px;
+  }
+
+  form {
+    flex-direction: column;
+    padding: 10px 20px;
+  }
+
+  /* Registration form */
+
+  .registration-form {
+    width: 100%;
+  }
+  
+  .username {
+    width: 90%;
+  }
+  
+  .user-email {
+    width: 90%;
+  }
+  
+  .user-password {
+    width: 44%;
+    margin-right: 10px;
+  }
+  
+  .confirm-password {
+    width: 44%;
+  }
+
+  /* Personal details */
+
+  .personal-details {
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  .first-name {
+    width: 46%;
+    margin-right: 10px;
+    margin-bottom: 32px;
+  }
+
+  .last-name {
+    width: 46%;
+  }
+  
+  .select-gender {
+    width: 46%;
+    margin-right: 10px;
+  }
+  
+  .user-date {
+    width: 46%;
+  }
+  
+  .wrapper {
+    margin-top: 30px;
+  }
+
+  .submit-btn {
+    margin-right: 0;
+   margin-left: 80%;
+  }
+  
+}
+
+/* max-width: 600px */
+
+@media screen and (max-width: 600px) {
+  .container {
+    max-width: 540px;
+  }
+
+  /* Registration form */
+
+  .registr-title {
+    text-align: left;
+  }
+
+  .registration-form {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .username {
+    width: 90%;
+  }
+  
+  .user-email {
+    width: 90%;
+  }
+  
+  .user-password {
+    width: 89%;
+  }
+
+  .label-1 {
+    margin-left: 6px;
+  }
+
+  .confirm-password {
+    width: 89%;
+    margin-left: 20px;
+  }
+
+  /* Personal details */
+
+  .personal-details {
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  .first-name {
+    width: 90%;
+    margin-bottom: 32px;
+    margin-left: 24px;
+  }
+
+  .last-name {
+    width: 90%;
+    margin-left: 24px;
+    margin-bottom: 28px;
+  }
+  
+  .select-gender {
+    width: 90%;
+    margin-left: 24px;
+    margin-bottom: 28px;
+  }
+  
+  .user-date {
+    width: 90%;
+    margin-left: 24px;
+  }
+  
+  .wrapper {
+    margin-top: 30px;
+    margin-left: 24px;
+  }
+
+  .submit-btn {
+    margin-right: 0;
+   margin-left: 70%;
+  }
+}
