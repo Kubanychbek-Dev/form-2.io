@@ -250,4 +250,54 @@ form {
     margin-right: 0;
    margin-left: 70%;
   }
+
+  
+}
+
+
+@media screen and (max-width: 494px) {
+  .container {
+    max-width: 430px;
+  }
+
+  /* Registration form */
+
+  .registration-form {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .username {
+    width: 90%;
+  }
+  
+  .user-email {
+    width: 90%;
+  }
+
+  .passwords {
+    width: 100%;
+  }
+  
+  .user-password {
+    width: 87%;
+  }
+
+  .label-1 {
+    margin-left: 0;
+  }
+
+  /* Personal details */
+
+  
+  .wrapper {
+    margin-top: 30px;
+    margin-left: 0;
+    word-wrap: break-word;
+  }
+
+  .submit-btn {
+    margin-right: 0;
+   margin-left: 56%;
+  }
 }
