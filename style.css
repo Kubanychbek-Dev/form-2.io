@@ -215,7 +215,6 @@ form {
 
   .personal-details {
     width: 100%;
-    margin-top: 10px;
   }
   
   .first-name {
@@ -293,11 +292,44 @@ form {
   .wrapper {
     margin-top: 30px;
     margin-left: 0;
-    word-wrap: break-word;
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
   }
 
   .submit-btn {
     margin-right: 0;
    margin-left: 56%;
   }
+}
+
+@media screen and (max-width: 385px) {
+  .container {
+    max-width: 330px;
+  }
+
+  /* Registration form */
+
+  .registration-form {
+    width: 90%;
+    text-align: center;
+  }
+  
+  .username {
+    width: 86%;
+  }
+  
+  .user-email {
+    width: 86%;
+  }
+
+  .user-password {
+    width: 82%;
+  }
+
+  .submit-btn {
+    margin-right: 0;
+   margin-left: 46%;
+  }
+
 }
